@@ -1,0 +1,149 @@
+
+
+.logo {
+	margin-top: 0%;
+	}
+body {
+	width: 1024px;
+	margin: 0 auto;
+}
+
+h1 {
+	float:right;
+	margin: 8% 12%;
+	font-size: 40px;
+}
+
+
+p {
+	font-size: 18px;
+	margin-top:5%;	
+}
+
+.left {
+	padding-right:7%;
+}
+
+.right {
+	padding-left:10%;
+}
+
+/*Menu items-------------------------------------------------*/
+
+#breakfast {
+	padding-right:7%;
+}
+
+#lunch {
+	padding-left:10%;
+}
+/* Navigation-----------------------------------------------*/
+nav ul { 
+	font-size: 25px;
+	margin: 5%; 
+	padding: 5px; 
+	list-style-type: none; 
+	text-align: center;  
+	} 
+
+nav ul li {  
+	display: inline; 
+	} 
+	
+nav ul li a { 
+	text-decoration: none; 
+	padding: .2em 1em; 
+	color: #fff; 
+	background-color: #000; 
+	} 
+	
+nav ul li a:hover { 
+	color: #000; 
+	background-color: #fff; 
+	} 
+	
+
+
+footer {
+	margin-top: 7%;
+	clear:both;
+}
+
+
+/* Contact us--------------------------------------------*/
+
+#contact {
+	float:right;
+	margin-right: 45%;
+	margin-top: 7%;
+	}
+	
+#employee {
+	margin-left: 5%;
+	border:solid
+	
+}
+
+
+
+
+/* Location----------------------------------------------*/
+
+#google_map {
+	width:425px;
+	border:solid;
+}
+
+#address {
+	list-style-type:none;
+	float:right;
+	margin-top: -30%;
+	margin-right: 35%;
+}
+
+#hours {
+	float: right;
+	margin-top: -20%;
+	margin-right: 27%;
+	text-align:center;
+	
+}
+
+
+/*social------------------------------------------------*/
+
+#socialbar img {
+				border: 0px;
+			}
+			#socialbar li img {
+				width: 48px;
+				height: 48px;
+			}
+			#socialbar li a:hover {
+				position: relative;
+				top: 2px;
+			}
+			#socialbar {
+				padding: 0px;
+				list-style: none outside none;
+				margin: 0px;
+				position: static;
+			}
+			#socialbar li {
+				display: inline;
+				padding-right: 2px;
+			}
+			#socialbar {
+				width: 280px;
+				text-align: center;
+				margin-top: 10%;
+			}
+			
+#follow_us {
+	padding-right:2%;
+	width:380px;
+	float:left;
+	
+	
+}
+
