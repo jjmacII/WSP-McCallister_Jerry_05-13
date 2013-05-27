@@ -1,0 +1,243 @@
+/* body-------------------------------------------------------*/
+
+.logo {
+	max-width:100%;
+	margin-top: 0%;
+	border:solid;
+	}
+body {
+	max-width: 1024px;
+	margin: 0 auto;
+	background-image:url(images/background.jpg);
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	
+}
+
+#wrapper {
+	width:100%;
+}
+
+h1 {
+	float:right;
+	margin:8% 12%;
+	font-size: 2.5em;
+	
+	
+}
+
+
+p {
+	font-size: 1.125em;
+	margin-top:5%;	
+}
+
+.left {
+	padding-right:7%;
+	max-width:100%;
+}
+
+.right {
+	padding-left:10%;
+	max-width:100%;
+}
+
+/*Menu items-------------------------------------------------*/
+
+#breakfast {
+	padding-right:7%;
+	max-width:100%;
+	
+}
+
+#lunch {
+	padding-left:10%;
+	max-width:100%;
+	
+}
+/* Navigation-----------------------------------------------*/
+nav ul { 
+	font-size: 1.563em;
+	margin: 5%; 
+	padding: 5px; 
+	list-style-type: none; 
+	text-align: center;  
+	} 
+
+nav ul li {  
+	display: inline; 
+	} 
+	
+nav ul li a { 
+	text-decoration: none; 
+	padding: .2em 1em; 
+	color: #000;
+	background-color: #28A1CC;
+	} 
+	
+nav ul li a:hover { 
+	color: #000; 
+	background-color: #2687AA; 
+	} 
+	
+
+
+footer {
+	margin-top: 7%;
+	clear:both;
+	text-align:center;
+}
+
+
+/* Contact us--------------------------------------------*/
+
+#contact {
+	
+	margin-right: 45%;
+	margin-top: 7%;
+	}
+	
+#employee {
+	margin-left: 5%;
+	border:solid;
+	max-width:100%;
+	
+}
+
+
+
+
+/* Location----------------------------------------------*/
+
+#google_map {
+	width:425px;
+	border:solid;
+}
+
+#address {
+	list-style-type:none;
+	float:right;
+	margin-top: -30%;
+	margin-right: 35%;
+}
+
+#hours {
+	float: right;
+	margin-top: -20%;
+	margin-right: 27%;
+	text-align:center;
+	
+}
+
+
+/*social------------------------------------------------*/
+
+#socialbar img {
+				border: 0px;
+			}
+			#socialbar li img {
+				width: 3em;
+				height: 3em;
+			}
+			#socialbar li a:hover {
+				position: relative;
+				top: 0.125em;
+			}
+			#socialbar {
+				padding: 0px;
+				list-style: none outside none;
+				margin: 0px;
+				position: static;
+			}
+			#socialbar li {
+				display: inline;
+				padding-right: 0.125em;
+			}
+			#socialbar {
+				width: 17.500em;
+				text-align: center;
+				margin-top: 10%;
+			}
+			
+#follow_us {
+	padding-right:2%;
+	width:23.750em;
+	float:left;
+	
+	}
+	
+	/* Media Screens ---------------------------*/
+	/*Tablet Portrait size to standard 1024 (devices and browsers)*/
+	@media only screen and (min-width:768px) and (max-width:1023px) {
+		nav {
+			font-size:12px;
+		}
+		
+		body {
+			
+			}
+			
+		.logo {
+			margin-left:37%;
+		}
+		
+		h1 {
+	margin-top: 3.128258602711%;  /* 30px/959px*/
+	}	
+
+.right {
+	margin-top:1%;
+	margin-left:25%;
+	padding-left:0%;
+	max-width:100%;
+}	
+
+.left {
+	margin-left:25%;
+	padding-right:7%;
+	max-width:100%;
+}
+
+#breakfast {
+	margin-left:25%;
+}
+
+#lunch {
+	margin-left:15%;
+}
+
+#contact {
+	margin-left:50%;
+}
+
+#employee {
+	margin-left:38%;
+}
+	}
+	
+	/*Mobile Landscape Size to Tablet Portrait (devices and browsers)*/
+	@media only screen and (min-width:480px) and (max-width:767px) {
+		nav {
+			font-size:8px;
+		}
+		
+		h1 {
+			font-size:24px;
+		}
+		
+		.logo {
+			margin-left:25%;
+		}
+		
+	.right {
+	margin-top:1%;
+	margin-left:-10%;
+	max-width:100%;
+}
+	}
+	
+	/*Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width:479px) {
+	}
+
