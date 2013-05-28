@@ -86,7 +86,7 @@ nav ul li a:hover {
 
 
 footer {
-	margin-top: 20%;
+	margin-top: 12%;
 	clear:both;
 	text-align:center;
 }
@@ -284,11 +284,23 @@ border: 1px solid #09C;
 }
 
 #contact {
-	margin-left:50%;
+	margin-left:5%;
 }
 
 #employee {
-	margin-left:38%;
+	margin-left:5%;
+}
+
+form {
+	margin-right:3%;
+}
+
+#hours {
+	margin-left:45%;
+}
+
+#google_map {
+	margin-left:1%;
 }
 	}
 	
