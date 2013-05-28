@@ -339,6 +339,29 @@ form {
 		.left {
 			margin-left: 10%;
 		}
-
+		
+		#breakfast {
+			margin-left:10%;
+		}
+		
+		form {
+			width:369px;
+			margin-right:10%;
+			margin-top:4%;
+			margin-bottom:4%;
+			
+		}
+		
+		#contact {
+			height:100px;
+			margin-left:6%;
+			
+			clear:both;
+		}
+		
+		#employee {
+			margin-left:6%;
+		}
+	
 	}
 
