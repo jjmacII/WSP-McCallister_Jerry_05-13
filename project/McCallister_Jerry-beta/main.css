@@ -8,7 +8,7 @@
 body {
 	max-width: 1024px;
 	margin: 0 auto;
-	background-image:url(images/background.jpg);
+	background-image:url(Images/Background.jpg);
 	background-position:center;
 	background-repeat:no-repeat;
 	-webkit-background-size:cover;
@@ -194,7 +194,7 @@ border: 1px solid #09C;
 	list-style-type:none;
 	float:right;
 	margin-top: -30%;
-	margin-right: 35%;
+	margin-right: 25%;
 }
 
 #hours {
