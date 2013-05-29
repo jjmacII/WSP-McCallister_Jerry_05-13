@@ -8,7 +8,7 @@
 body {
 	max-width: 1024px;
 	margin: 0 auto;
-	background-image:url(images/background.jpg);
+	background-image:url(Images/Background.jpg);
 	background-position:center;
 	background-repeat:no-repeat;
 	-webkit-background-size:cover;
