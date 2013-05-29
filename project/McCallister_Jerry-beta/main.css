@@ -115,8 +115,20 @@ footer {
 /* Form Input Fields -----------------------------------------------*/
 form {
 	float:right;
-	background: -webkit-gradient(linear, bottom, left 175px, from(#CCCCCC), to(#EEEEEE));
-background: -moz-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+background-image: linear-gradient(bottom, rgb(54,163,199) 1%, rgb(163,201,201) 51%);
+background-image: -o-linear-gradient(bottom, rgb(54,163,199) 1%, rgb(163,201,201) 51%);
+background-image: -moz-linear-gradient(bottom, rgb(54,163,199) 1%, rgb(163,201,201) 51%);
+background-image: -webkit-linear-gradient(bottom, rgb(54,163,199) 1%, rgb(163,201,201) 51%);
+background-image: -ms-linear-gradient(bottom, rgb(54,163,199) 1%, rgb(163,201,201) 51%);
+
+background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0.01, rgb(54,163,199)),
+	color-stop(0.51, rgb(163,201,201))
+);
+
 margin:auto;
 position:relative;
 width:550px;
