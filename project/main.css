@@ -4,6 +4,7 @@
 	max-width:100%;
 	margin-top: 0%;
 	border:solid;
+	border-style:none;
 	}
 body {
 	max-width: 1024px;
@@ -26,7 +27,7 @@ body {
 
 h1 {
 	float:right;
-	margin:8% 12%;
+	margin:6% 12%;
 	font-size: 2.5em;
 	
 	
@@ -87,7 +88,7 @@ nav ul li a:hover {
 	} 
 	
 
-
+/* Footer------------------------------------------------------*/
 footer {
 	margin-top: 12%;
 	clear:both;
