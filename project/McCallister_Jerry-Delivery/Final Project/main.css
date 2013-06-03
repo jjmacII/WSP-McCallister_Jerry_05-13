@@ -1,0 +1,381 @@
+/* body-------------------------------------------------------*/
+
+.logo {
+	max-width:100%;
+	margin-top: 0%;
+	border:solid;
+	border-style:none;
+	}
+body {
+	max-width: 1024px;
+	margin: 0 auto;
+	background-image:url(Images/Background.jpg);
+	background-position:center;
+	background-repeat:no-repeat;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	
+}
+
+
+
+#wrapper {
+	width:100%;
+}
+
+h1 {
+	float:right;
+	margin:6% 5%;
+	font-size: 2.5em;
+	}
+
+
+p {
+	font-size: 1.125em;
+	margin-top:5%;	
+}
+
+.left {
+	padding-right:7%;
+	max-width:100%;
+}
+
+.right {
+	padding-left:10%;
+	max-width:100%;
+}
+
+/*Menu items-------------------------------------------------*/
+
+#breakfast {
+	padding-right:7%;
+	max-width:100%;
+	
+}
+
+#lunch {
+	padding-left:10%;
+	max-width:100%;
+	
+}
+/* Navigation-----------------------------------------------*/
+nav ul { 
+	font-size: 1.563em;
+	margin: 5%; 
+	padding: 5px; 
+	list-style-type: none; 
+	text-align: center;  
+	} 
+
+nav ul li {  
+	display: inline; 
+	} 
+	
+nav ul li a { 
+	text-decoration: none; 
+	padding: .2em 1em; 
+	color: #000;
+	background-color: #28A1CC;
+	} 
+	
+nav ul li a:hover { 
+	color: #000; 
+	background-color: #2687AA; 
+	} 
+	
+
+/* Footer------------------------------------------------------*/
+footer {
+	margin-top: 12%;
+	clear:both;
+	text-align:center;
+}
+
+
+/* Contact us--------------------------------------------*/
+
+#contact {
+	background:#ffffff;
+	width:200px;
+	border:solid;
+	margin-right: 45%;
+	margin-top: 7%;
+	}
+	
+#employee {
+	margin-top:1%;
+	border:solid;
+	max-width:100%;
+	
+}
+
+/* Form Input Fields -----------------------------------------------*/
+form {
+	float:right;
+background-image: linear-gradient(bottom, rgb(54,163,199) 1%, rgb(163,201,201) 51%);
+background-image: -o-linear-gradient(bottom, rgb(54,163,199) 1%, rgb(163,201,201) 51%);
+background-image: -moz-linear-gradient(bottom, rgb(54,163,199) 1%, rgb(163,201,201) 51%);
+background-image: -webkit-linear-gradient(bottom, rgb(54,163,199) 1%, rgb(163,201,201) 51%);
+background-image: -ms-linear-gradient(bottom, rgb(54,163,199) 1%, rgb(163,201,201) 51%);
+
+background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0.01, rgb(54,163,199)),
+	color-stop(0.51, rgb(163,201,201))
+);
+
+margin:auto;
+position:relative;
+width:550px;
+height:450px;
+font-family: Tahoma, Geneva, sans-serif;
+font-size: 14px;
+font-style: italic;
+line-height: 24px;
+font-weight: bold;
+color: #09C;
+text-decoration: none;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+padding:10px;
+border: 1px solid #999;
+border: 1px solid #333;
+-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+
+input    {
+width:375px;
+display:block;
+border: 1px solid #999;
+height: 25px;
+-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+
+textarea {
+	width:375px;
+height:150px;
+display:block;
+}
+
+#submit {
+width:100px;
+position:absolute;
+right:20px;
+bottom:20px;
+background:#09C;
+color:#fff;
+font-family: Tahoma, Geneva, sans-serif;
+height:30px;
+-webkit-border-radius: 15px;
+-moz-border-radius: 15px;
+border-radius: 15px;
+border: 1px solid #999;
+}
+
+#submit:hover {
+background:#fff;
+color:#09C;
+}
+
+textarea:focus, input:focus {
+border: 1px solid #09C;
+}
+
+
+
+
+
+/* Location----------------------------------------------*/
+
+#google_map {
+	width:425px;
+	border:solid;
+}
+
+#address {
+	list-style-type:none;
+	float:right;
+	margin-top: -30%;
+	margin-right: 25%;
+}
+
+#hours {
+	float: right;
+	margin-top: -20%;
+	margin-right: 25%;
+	text-align:center;
+	
+}
+
+
+/*social------------------------------------------------*/
+
+#socialbar img {
+				border: 0px;
+			}
+			#socialbar li img {
+				width: 3em;
+				height: 3em;
+			}
+			#socialbar li a:hover {
+				position: relative;
+				top: 0.125em;
+			}
+			#socialbar {
+				padding: 0px;
+				list-style: none outside none;
+				margin: 0px;
+				position: static;
+			}
+			#socialbar li {
+				display: inline;
+				padding-right: 0.125em;
+			}
+			#socialbar {
+				width: 17.500em;
+				text-align: center;
+				margin-top: 10%;
+			}
+			
+#follow_us {
+	padding-right:2%;
+	width:23.750em;
+	float:left;
+	
+	}
+	
+	/* Media Screens ---------------------------*/
+	/*Tablet Portrait size to standard 1024 (devices and browsers)*/
+	@media only screen and (min-width:768px) and (max-width:1023px) {
+		nav {
+			margin-left:8%;
+			margin-top:17%;
+			font-size:10px;
+			clear:both;
+		}
+		
+		p {
+			margin-top:5%;
+			padding-left:2%;
+			}
+			
+		.logo {
+			margin-left:33%;
+		}
+		
+		h1 {
+		margin-top: 4.128258602711%;  /* 30px/959px*/
+			}	
+
+.right {
+	margin-top:1%;
+	margin-left:25%;
+	padding-left:0%;
+	max-width:100%;
+}	
+
+.left {
+	margin-left:25%;
+	padding-right:7%;
+	max-width:100%;
+}
+
+#breakfast {
+	margin-left:25%;
+}
+
+#lunch {
+	margin-left:15%;
+}
+
+#contact {
+	margin-left:5%;
+}
+
+#employee {
+	margin-left:5%;
+}
+
+form {
+	margin-right:3%;
+}
+
+#hours {
+	margin-left:45%;
+}
+
+#google_map {
+	margin-left:1%;
+}
+	}
+	
+	/*Mobile Landscape Size to Tablet Portrait (devices and browsers)*/
+	@media only screen and (min-width:480px) and (max-width:767px) {
+		nav {
+			font-size:8px;
+		}
+		
+		h1 {
+			font-size:24px;
+		}
+		
+		.logo {
+			margin-left:25%;
+		}
+		
+	.right {
+	margin-top:1%;
+	margin-left:-10%;
+	max-width:100%;
+}
+	}
+	
+	/*Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width:479px) {
+		
+		h1 {
+			font-size:24px;
+		}
+		
+		nav {
+			font-size:8px;
+		}
+		
+		.left {
+			margin-left: 10%;
+		}
+		
+		#breakfast {
+			margin-left:10%;
+		}
+		
+		form {
+			width:369px;
+			margin-right:10%;
+			margin-top:4%;
+			margin-bottom:4%;
+			
+		}
+		
+		#contact {
+			height:100px;
+			margin-left:6%;
+			
+			clear:both;
+		}
+		
+		#employee {
+			margin-left:6%;
+		}
+	
+	}
+
